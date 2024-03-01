@@ -20,7 +20,7 @@ while True:
     sleep(10)
 ```
 
-Log directory, AppLogger will first create `log_dir` it if doesn't already exist:
+Log directory (`AppLogger` will first create `log_dir` it if doesn't already exist):
 
 ```
 - logs
