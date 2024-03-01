@@ -1,5 +1,5 @@
 # applogger
-This simple python module defines a class which implements a file based event logging system for applications.
+This simple python module defines a class which implements a file based event logging system for applications. Built on the python3 `logging` module.
 
 
 ## Usage
