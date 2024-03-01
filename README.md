@@ -8,7 +8,7 @@ This simple python module defines a class which implements a file based event lo
 from time import sleep
 from applogger import AppLogger
 
-logger = AppLogger(log_dir='logs', log_file='log', name='log', backup_count=30)
+logger = AppLogger(log_dir='logs', log_file='log', name='log', backup_count=30) # default values
 
 while True:
     logger.debug('This is a debug message')
@@ -20,7 +20,7 @@ while True:
     sleep(10)
 ```
 
-Log directory, assuming log_dir='logs' (default), AppLogger will first create it if doesn't already exist:
+Log directory, AppLogger will first create `log_dir` it if doesn't already exist:
 
 ```
 - logs
